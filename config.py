@@ -20,7 +20,7 @@ class Config(object):
     API_ID    = os.environ.get("API_ID", "30775734")
     API_HASH  = os.environ.get("API_HASH", "b7d8ccaedaac68008d12e3ee7f5ae867")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8566325870:AAFQfTlvFz8C60kZLJCFdFKcvRIGJxMS5TY") 
-
+    STRING_SESSION = "AQHVmbYArKcX6tczjdHEkKWYJpKdgJ33JXRLHVH83E1DGjbUwlekuO7B7kQnEWxnscpPWXESnbEZt-G16lfMO9PtfkB5dFTY8JwfmmSKGZ7ZI83059-yTgsbHhIQ3BTr4yaWI86tCxVP9wj4aT0vTiPHmvXjGZuNw1QbcBcYLGnI_2rhQNMfBuP7UGWkzdnGyYERI6XrFqdiAyurkzgiVr7ccp2uhex65lKLyD2lz0OfXZWbu1CCuavGIK6-0g8rDchmnpgxHb2gE4SIihEnEjb-hX0WyIojvViODvShGJDjJQrT-dMT79PfyJftPATOwMTLUc4sl_B-C9NQ9Y6qnZEQSzLIIgAAAAHDihlMAA"
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://bhaihim863:ds5P8DrfeVT5vkEi@cluster0.oacffum.mongodb.net/?appName=Cluster0")
